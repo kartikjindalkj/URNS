@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product Page - Admin HTML Template</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <!--
+	Product Admin CSS Template
+	https://templatemo.com/tm-524-product-admin
+	-->
+  </head>
+
+  <body id="reportsPage">
+    <nav class="navbar navbar-expand-xl">
+      <div class="container h-100">
+          <a class="navbar-brand" href="index.jsp">
+              <h1 class="tm-site-title mb-0">Product Admin</h1>
+          </a>
+          <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars tm-nav-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto h-100">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.jsp">
+                          <i class="fas fa-tachometer-alt"></i>
+                          Dashboard
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item dropdown">
+
+                      <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          <i class="far fa-file-alt"></i>
+                          <span>
+                              Utilities <i class="fas fa-angle-down"></i>
+                          </span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="maintenance.jsp">Monthly Maintenance</a>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          <span>
+                             Services <i class="fas fa-angle-down"></i>
+                          </span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="electrician.html">Electrician</a>
+                        <a class="dropdown-item" href="plumber.html">Plumber</a>
+                        <a class="dropdown-item" href="laundary.html">Laundary</a>
+                      </div>
+                         
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="products.jsp">
+                          <i class="fas fa-shopping-cart"></i>
+                          Grocery
+                      </a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="accounts.html">
+                          <i class="far fa-user"></i>
+                          Profile
+                      </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-cog"></i>
+                          <span>
+                              More.. <i class="fas fa-angle-down"></i>
+                          </span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Feedback</a>
+                          <a class="dropdown-item" href="#">Change Password</a>
+                          
+                      </div>
+                  </li>
+              </ul>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link d-block" href="login.html">
+                         Hello <br> <b>Logout</b>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+  </nav>
+  <div class="tm-block-col tm-col-account-settings">
+        <div class="tm-bg-primary-dark tm-block tm-block-settings">
+          <h2 class="tm-block-title">Electrician Services</h2>
+          <form action="" class="tm-signup-form row">
+            <div class="form-group col-lg-6">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                class="form-control validate"
+              />
+            </div>
+            <div class="form-group col-lg-6">
+              <label for="card number">Problem</label>
+              <input
+                id="email"
+                name="email"
+                type="text"
+                maxlength="16"
+                class="form-control validate"
+              />
+            </div>
+            <div class="form-group col-lg-6">
+              <label for="Plumber name">Date</label>
+              <input
+                id="time"
+                name="date"
+                type="date"
+                class="form-control validate"
+                maxlength="3"
+              />
+            </div>
+            <div class="form-group col-lg-6">
+                    <label for="Plumber name">Time</label>
+                    <input
+                      id="date"
+                      name="time"
+                      type="time"
+                      class="form-control validate"
+                      maxlength="3"
+                    />
+                  </div>
+            <div class="form-group col-lg-6">
+                        <label for="Plumber name">Choose the Electrician</label>
+                        <select>
+                                <option>--select--</option>
+                            <option>HARI CHAURASIYA</option>
+                            <option>KARTIK JINDAL</option>
+                            <option>SHUBHANKAR PRADHAN</option>
+                            <option>RAJ LAHOTI</option>
+                            <option>AMEY P SUNU</option>
+                        </select>
+                      </div>
+                
+            <div class="form-group col-lg-6">
+              
+            </div>
+            <div class="form-group col-lg-6">
+                <label class="tm-hide-sm">&nbsp;</label>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-block text-uppercase"
+                >
+                  Book Complaint
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script>
+      $(function() {
+        $(".tm-product-name").on("click", function() {
+          window.location.href = "edit-product.html";
+        });
+      });
+    </script>
+  </body>
+</html>
